@@ -1,0 +1,47 @@
+.Footer {
+  padding: 70px 0;
+  background-color: rgb(47, 47, 47);
+  .wrapper {
+    display: flex;
+    .left_box {
+      img {
+        width: 100px;
+      }
+      p {
+        max-width: 150px;
+        color: #fff;
+        margin: 10px 0;
+      }
+    }
+    .right_box {
+      margin-left: auto;
+      display: flex;
+      .navigation {
+        margin-right: 20px;
+        h4 {
+          color: #fff;
+        }
+        ul {
+          padding-left: 0;
+          li {
+            list-style: none;
+            &:hover {
+              a {
+                color: #fff;
+                padding-left: 10px;
+              }
+            }
+            a {
+              transition: 0.4s ease;
+              color: #f3bc0f;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .contacts {
+        color: #fff !important;
+      }
+    }
+  }
+}

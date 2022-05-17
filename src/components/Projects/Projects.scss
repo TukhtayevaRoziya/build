@@ -1,0 +1,432 @@
+.projects {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    .each_part {
+      &:nth-child(1) {
+        background: url("../../assets/architecture1.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(2) {
+        background: url("../../assets/architecture2.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(3) {
+        background: url("../../assets/architecture3.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(4) {
+        background: url("../../assets/architecture4.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(5) {
+        background: url("../../assets/architecture5.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(6) {
+        background: url("../../assets/architecture6.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(7) {
+        background: url("../../assets/slider1.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(8) {
+        background: url("../../assets/slider3.jpg");
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          .in_wrapper {
+            &:hover {
+              background: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 0.658),
+                rgba(0, 0, 0, 0.61)
+              );
+              .main_text {
+                padding-top: 30px;
+              }
+              .hiidden_text {
+                visibility: visible;
+                margin-bottom: 0;
+              }
+            }
+            overflow: hidden;
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.404),
+              rgba(0, 0, 0, 0.432)
+            );
+            height: 300px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            transition: 1s ease;
+            .main_text {
+              transition: 0.4s ease;
+              padding-top: 120px;
+            }
+            .hiidden_text {
+              transition: 0.3s ease;
+              position: absolute;
+              margin-bottom: -120px;
+              visibility: hidden;
+              a {
+                color: #f3bc0f;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

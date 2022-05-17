@@ -1,0 +1,475 @@
+.WrappererNews {
+  overflow: hidden;
+}
+
+.adc_malumot {
+  width: 100%;
+  color: grey !important;
+  font-family: cursive;
+}
+.TitleName {
+  text-align: center;
+}
+.description4 {
+  font-size: 16px !important;
+  margin: 0 3rem;
+  text-transform: center;
+}
+.HeaderNews {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.HeaderNews h1 {
+  margin: 0 auto;
+}
+
+.HeaderNews img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  height: 100%;
+}
+.HeaderNews video {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  height: 100%;
+}
+
+.BlockSinglur {
+  margin: 1rem 0;
+  box-shadow: 0px 0px 12px 9px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.BlockSinglur img {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: 250px;
+  object-fit: cover;
+}
+
+.BlockLink {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.BlockSinglur h3 {
+  font-size: 18px;
+  width: 100%;
+  padding: 0 3px;
+  text-align: center;
+}
+
+.HeaderNews2 {
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.HeaderNews2 h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 128.7%;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+}
+.BlockLink img {
+  width: 100%;
+}
+.SingleKatalog h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.HeaderNews2 h1 {
+  width: 717px;
+  letter-spacing: 0.015em;
+}
+
+.BlockLink h1,
+.HeaderNews2 h1 {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 128.7%;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.HeaderNews2 a {
+  margin-top: 0;
+}
+
+.Block1,
+.Block2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.Block1 {
+  color: white;
+}
+
+.Block2 {
+  color: #ffc700;
+}
+
+.Katalog {
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Kategoriya {
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  width: 31%;
+  margin-top: 1.5rem;
+}
+
+.Kategoriya img {
+  width: 100%;
+  transition: 0.5s all linear;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Kategoriya:hover img {
+  transform: scale(1.1);
+  transition: 0.5s all linear;
+}
+
+.Katalog h1 {
+  width: 350px;
+  font-weight: 900;
+  transition-property: transform;
+  transition: 0.25s ease;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 0.1rem;
+}
+.Katalog h1::after {
+  content: "";
+  border-top: 4px solid #4178c0;
+  width: 100%;
+  position: absolute;
+  display: block;
+  transform: rotateY(90deg);
+  transition: transform 0.25s linear;
+}
+.Katalog h1:hover {
+  transform: scale(1);
+}
+.Katalog h1:hover::after {
+  transform: rotate(0deg);
+}
+
+.Katalog h5 {
+  font-family: Roboto;
+  font-weight: bold;
+  width: 90%;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 139.69%;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.Katalog h6 {
+  font-size: 15px;
+  width: 95%;
+  line-height: 150.69%;
+  letter-spacing: 0.015em;
+}
+
+.Katalog p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150.69%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #1d89e4;
+}
+
+.Katalog h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 123.19%;
+  color: #000000;
+}
+
+.MoreSee {
+  width: 100%;
+}
+
+.MoreSee button {
+  background-color: transparent;
+  border: none;
+  float: right;
+  margin: 2rem 0 1rem 0;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2d9cdb;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.SingleKatalog {
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Link h5 {
+  text-align: center;
+}
+
+.Link h6,
+.Link h5,
+.Link p {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.SingleKatalog h1 {
+  margin: 2.5rem 0;
+  width: 100%;
+}
+
+.discription {
+  width: 55%;
+  text-align: justify;
+}
+
+.data {
+  width: 40%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Link {
+  color: black;
+  text-decoration: none;
+}
+
+@media (min-width: 0) and (max-width: 600.9px) {
+  .HeaderNews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .HeaderNews h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .Block1,
+  .Block2 {
+    font-size: 17px;
+  }
+
+  .Katalog {
+    padding: 0 10px;
+  }
+
+  .Kategoriya {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .Kategoriya img {
+    width: 100%;
+  }
+
+  .Katalog h1 {
+    width: 100%;
+  }
+
+  .Katalog h5 {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .Katalog h6 {
+    width: 100%;
+  }
+
+  .Katalog p {
+    font-size: 15px;
+  }
+
+  .Katalog h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .MoreSee {
+    width: 100%;
+  }
+
+  .MoreSee button {
+    margin-top: 0.5rem;
+  }
+
+  /* //single */
+  .data {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .HeaderNews2 h1 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .SingleKatalog {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .discription {
+    width: 100%;
+    text-align: justify;
+  }
+  .discription h1 {
+    margin: 0;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+  }
+  .discription p {
+    width: 100%;
+    text-align: center;
+  }
+  .HeaderNews2 {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900.9px) {
+  .HeaderNews {
+    height: 402px;
+  }
+  .HeaderNews h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .Block1,
+  .Block2 {
+    font-size: 19px;
+  }
+
+  .Katalog {
+    padding: 0 15px;
+    justify-content: space-between;
+  }
+
+  .Kategoriya {
+    width: 47%;
+    margin-top: 1rem;
+  }
+
+  .Kategoriya img {
+    width: 100%;
+  }
+
+  .Katalog h1 {
+    width: 100%;
+  }
+
+  .Katalog h5 {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .Katalog h6 {
+    width: 100%;
+  }
+
+  .Katalog p {
+    font-size: 15px;
+  }
+
+  .Katalog h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .MoreSee {
+    width: 100%;
+  }
+
+  .MoreSee button {
+    margin-top: 0.5rem;
+  }
+
+  /* single */
+  .data {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .HeaderNews2 {
+    height: 400px;
+  }
+  .HeaderNews2 h1 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .SingleKatalog {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .discription {
+    width: 100%;
+    text-align: justify;
+    width: 100%;
+  }
+  .discription h1 {
+    margin: 0;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+  }
+  .discription p {
+    width: 100%;
+    text-align: center;
+  }
+}

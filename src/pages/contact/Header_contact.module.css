@@ -1,0 +1,19 @@
+.body {
+  background-image: url("./HeaderImg/changed.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.title {
+  color: #fff;
+}
+
+@media (min-width: 0) and (max-width: 749.9px) {
+  .body {
+    height: 100vh;
+  }
+}

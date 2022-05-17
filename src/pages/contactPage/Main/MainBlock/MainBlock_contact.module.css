@@ -1,0 +1,98 @@
+.body {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    padding        : 40px 80px 80px;
+    background     : #FFFFFF;
+    box-shadow     : 0px 4px 26px rgba(0, 0, 0, 0.12);
+    border-radius  : 7px;
+    margin-top     : 5rem;
+}
+
+.title {
+    font-family: var(--main-family);
+    font-weight: bolder;
+    font-size  : 38px;
+}
+
+.inp_body {
+    display        : flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.inp_with_label,
+.inp_with_labelComment {
+    display       : flex;
+    flex-direction: column;
+}
+
+.inp_with_label {
+    width: 45%;
+}
+
+.inp_with_label label,
+.inp_with_labelComment label {
+    font-family: var(--main-family);
+    font-weight: bold;
+    font-size  : 14px;
+}
+
+.inp_with_label .name,
+.inp_with_label .email {
+    height: 48px;
+    margin: 6px 0px;
+
+}
+
+.inp_with_label .name,
+.inp_with_label .email,
+.inp_with_labelComment .comment {
+    width     : 100%;
+    background-color: #CCDFEE;
+    flex      : none;
+    order     : 1;
+    flex-grow : 0;
+    outline   : none;
+    border    : none;
+    padding   : 10px;
+}
+
+.inp_with_labelComment {
+    width: 100% !important;
+}
+
+.body button {
+    width        : 100%;
+    height       : 57px;
+    background   : #011C80;
+    border-radius: 3px;
+    font-family  : var(--main-family);
+    color        : #FFFFFF;
+    outline      : none;
+    border       : none;
+    transition: .03s all linear;
+}
+
+.body button:active {
+    background-color: #fff;
+    border          : 4px solid #011C80;
+    color           : #011C80;
+    font-weight     : bolder;
+    border-radius   : 5px;
+    box-shadow: 0 0 6px #011c80;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+    .body {
+        margin-top: 2rem;
+        padding   : 30px 20px 50px;
+    }
+
+    .inp_with_label .name,
+    .inp_with_label .email {
+        height: 30px;
+    }
+}

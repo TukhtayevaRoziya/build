@@ -1,0 +1,88 @@
+/* ./HeaderImg */
+
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    width      : 100%;
+    font-family: var(--main-font-family);
+    font-style : normal;
+    font-weight: bolder;
+    font-size  : 46px;
+    line-height: 66px;
+    text-align : center;
+    color      : #FFFFFF;
+}
+
+
+/* ./Breadcrumb */
+
+.breadcrumb {
+    display    : flex;
+    align-items: center;
+}
+
+.breadcrumb a,
+.breadcrumb h3 {
+    font-family: var(--main-font-family);
+    font-style : normal;
+    font-weight: bolder;
+    font-size  : 20px;
+    line-height: 28px;
+}
+
+.breadcrumb a {
+    color          : #fff;
+    margin-right   : 8px;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #fff;
+}
+
+.breadcrumb h3 {
+    color : #FFC700;
+    margin: 0;
+}
+
+@media (min-width:0) and (max-width:749.9px) {
+   .title {
+    width      : 100%;
+    font-family: var(--main-font-family);
+    font-style : normal;
+    font-weight: bolder;
+    font-size  : 30px;
+    line-height: 66px;
+    text-align : center;
+    color      : #FFFFFF;
+}
+
+    .breadcrumb a,
+    .breadcrumb h3 {
+        font-size  : 16px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width:750px) and (max-width:1249.9px) {
+
+    .title {
+        margin   : 0;
+        font-size: 40px;
+    }
+
+    .breadcrumb a,
+    .breadcrumb h3 {
+        font-size: 16px;
+    }
+}

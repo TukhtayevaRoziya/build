@@ -1,0 +1,64 @@
+.Input input,
+.Input textarea {
+    /* background-image   : url(./error.png) ; */
+    /* background-size    : 40px 40px ; */
+    /* background-repeat  : no-repeat ; */
+    /* background-position: 100% ; */
+    width              : 100%;
+    border             : 1px solid red !important;
+    height             : 50px;
+    background-color   : #fff !important;
+}
+
+.Input textarea {
+    height: 50px;
+}
+
+.span {
+    color           : red;
+    font-size       : 18px;
+    box-sizing      : border-box;
+    margin-left     : 10px;
+    border: 1px solid red;
+    text-align: center;
+    width: auto;
+}
+
+.errorText{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    /* background: red; */
+    color: red;
+    text-align: center;
+}
+
+.error {
+    border: 3px solid red;
+    color : red;
+}
+
+.name{
+    border: 4px solid firebrick !important;
+}
+
+@media (min-width:0) and (max-width:449.9px) {
+
+    .span {
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 3px 0;
+        margin: 0;
+    }
+
+    .Input input,
+    .Input textarea {
+        background-size: auto 100% ;
+    }
+
+    .Input{
+        width: 100%;
+        text-align: center;
+    }
+}

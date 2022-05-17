@@ -1,0 +1,225 @@
+.Services {
+  padding: 50px 0;
+  .intro {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    h2 {
+      position: relative;
+      &::before {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        border-radius: 4px;
+        background-color: #808080;
+        margin: 10px auto;
+      }
+    }
+  }
+  .row {
+    margin: 20px 0;
+    .col-md-4 {
+      &:nth-child(1) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: rotate(45deg);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+      &:nth-child(2) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: scale(1.1, 1.1);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+      &:nth-child(3) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: rotate(90deg);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+      &:nth-child(4) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: scale(1.2, 1.2);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+  .the_second {
+    .col-md-4 {
+      &:nth-child(1) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: scale(1.2, 1.2);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+      &:nth-child(2) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: rotate(-360deg);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+      &:nth-child(3) {
+        &:hover {
+          .icon {
+            background-color: #2b2b2b;
+            svg {
+              color: #fff;
+              transform: scale(1.2, 1.2);
+            }
+          }
+        }
+        display: grid;
+        grid-template-columns: 30% 70%;
+        .icon {
+          transition: 0.2s ease-in;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #f3bc0f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            transition: 0.2s ease-in;
+            color: #fff;
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+}

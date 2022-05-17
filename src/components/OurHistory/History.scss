@@ -1,0 +1,52 @@
+.History {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  .container {
+    .row {
+      .col-md-6 {
+        &:nth-child(1) {
+          .intro {
+            h3 {
+              margin-bottom: 50px;
+              position: relative;
+              color: #292929;
+              &::before {
+                content: "";
+                display: block;
+                width: 60px;
+                height: 3px;
+                border-radius: 4px;
+                background-color: #808080;
+                margin: 10px 0;
+              }
+            }
+          }
+          h4 {
+            margin: 40px 0;
+          }
+          p {
+            color: #999898;
+          }
+          button {
+            padding: 10px 15px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            background-color: #f3bc0f;
+            text-align: center;
+            transition: 0.4s ease;
+            &:hover {
+              background-color: #292929;
+              color: #f3bc0f;
+            }
+          }
+        }
+        &:nth-child(2) {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

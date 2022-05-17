@@ -1,0 +1,105 @@
+.TopHeader{
+    background: linear-gradient(black, rgba(0, 0, 0, 0.87));
+    backdrop-filter: blur(10px);
+    height: 70px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .container{
+        .wrapper{
+            display: flex;
+            color: #fff;
+            margin-top: 10px;
+            .left_box{
+                font-weight: 400;
+                display: flex;
+                svg{
+                    color: #F3BC0F;
+                    transition: 0.3s ease;
+                }
+                a{
+                    transition: 0.3s ease-in-out;
+                }
+                p{
+                    transition: 0.3s ease;
+                }
+                .adress{
+                    margin-right: 15px;
+                    &:hover{
+                        svg{
+                            color: #FFF;
+                        }
+                        p{
+                            color: #F3BC0F;
+                        }
+                    }
+                }
+                .call_me{
+                    &:hover{
+                        svg{
+                            color: #FFF;
+                        }
+                        a{
+                            color: #F3BC0F;
+                        }
+                    }
+                }
+            
+            }
+            .right_box{
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+                ul{
+                    display: flex;
+                    padding-left: 0;
+                    .facebook{
+                        &:hover{
+                            svg{
+                                color: #F3BC0F;
+                                margin-top: -10px;
+                            }
+                        }
+                    }
+                    .tele{
+                        &:hover{
+                            svg{
+                                color: #F3BC0F;
+                                margin-top: -10px;
+                            }
+                        }
+                    }
+                    .insta{
+                        &:hover{
+                            svg{
+                                color: #F3BC0F;
+                                margin-top: -10px;
+                            }
+                        }
+                    }
+                    .youtube{
+                        &:hover{
+                            svg{
+                                color: #F3BC0F;
+                                margin-top: -10px;
+                            }
+                        }
+                    }
+                    li{
+                        list-style: none;
+                        svg{
+                            color: #fff;
+                            transition: 0.4s ease;
+                            font-size: 25px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
